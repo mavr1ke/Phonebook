@@ -23,5 +23,4 @@ public class CreateAccountTests extends TestBase{
         app.getUser().clickOnRegistrationButton();
         Assert.assertTrue(app.getUser().isAlertAppears());
     }
-
 }
